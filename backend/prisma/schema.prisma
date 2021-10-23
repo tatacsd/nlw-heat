@@ -1,0 +1,10 @@
+// what client is being used
+generator client {
+  provider = "prisma-client-js"
+}
+
+//Show the db config
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
